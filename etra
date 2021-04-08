@@ -1,0 +1,36 @@
+<template>
+    <v-app>
+
+       <AppNavigation></AppNavigation>
+       <AppHome></AppHome>
+      <AppFooter></AppFooter>
+      
+
+        <v-content transition="slide-x-transition">
+        </v-content>
+    </v-app>
+</template>
+
+<script>
+//import { component } from 'vue/types/umd';
+import AppNavigation from "@/components/AppNavigation";
+import AppHome from "@/components/AppHome";
+import AppFooter from "@/components/AppFooter.vue";
+
+
+
+
+
+export default {
+    name: 'App',
+    components: {AppNavigation,AppHome,AppFooter}
+
+};
+
+
+
+
+</script>
+
+<style>
+</style>

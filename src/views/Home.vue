@@ -7,9 +7,9 @@
         <v-col > 
            
         <div>
-            <div class="display-3 font-weight-black yellow--text text-center mb-3">HOME OF INTERIOR DESIGNS</div>
-            <div class="display-3 font-weight-black yellow--text text-center mb-7">FOR YOUR VARIOUS ABODE</div>
-            <div class="font-weight-bold text-center">Finally be a King and Queen at home with fresh, ambients and soft interior designs.</div>
+            <div class="display-3 font-weight-bold yellow--text text-center mb-3">HOME OF INTERIOR DESIGNS</div>
+            <div class="display-3 font-weight-bold yellow--text text-center mb-7">FOR YOUR VARIOUS ABODE</div>
+            <div class="font-weight-bold white--text text-center">Finally be a King and Queen at home with fresh, ambients and soft interior designs.</div>
             </div>
         </v-col>
         </v-row>
@@ -32,9 +32,11 @@ export default {
     
 <style>
    .home{
-    background-image: url(/image4.jpg);
+   background-image: linear-gradient(to right, rgba(0,0,0,0.6) 20%,
+              rgba(0,0,0,0.6)), url(/image4.jpg);
     background-size: cover;
     height: 100%;
+    
 } 
 .bar{
    padding-top: 150px;
